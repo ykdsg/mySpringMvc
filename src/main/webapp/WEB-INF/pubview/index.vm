@@ -1,0 +1,7 @@
+#set($title="首页")
+#set($navId=1)
+    <div class="content pd-30">
+        <div class="fw-b fs-24 mt-20">欢迎使用</div>
+        <div class="mt-20">
+        </div>
+    </div>

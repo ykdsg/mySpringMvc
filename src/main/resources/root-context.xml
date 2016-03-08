@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-4.0.xsd" default-autowire="byName"
+       default-lazy-init="false">
+
+    <!--<context:property-placeholder location="classpath:properties/facade.${properties.name}.properties,classpath:properties/biz.${properties.name}.properties,classpath:properties/biz.public.properties,classpath:properties/server.${properties.name}.properties" file-encoding="UTF-8"/>-->
+
+    <context:annotation-config/>
+
+    <!--<import resource="classpath:biz-context.xml"/>-->
+    <!--<import resource="thread-pool.xml"/>-->
+
+    <!--<context:component-scan base-package="com.yt.mall.weixin.ao.**.*"/>-->
+    <!--<context:component-scan base-package="com.yt.mall.web.ao"/>-->
+    <!--<context:component-scan base-package="com.yt.mall.weixin.handler.**.*"/>-->
+
+    <!-- spring mvc 统一异常处理-->
+    <!--<bean class="com.yt.mall.web.exception.CustomMappingExceptionResolver">-->
+        <!--<property name="exceptionMappings">-->
+            <!--<props>-->
+                <!--<prop key="com.yt.mall.web.exception.NotLoginException">redirect:/login/login.do</prop>-->
+                <!--<prop key="java.lang.Exception">redirect:/error/error.htm</prop>-->
+            <!--</props>-->
+        <!--</property>-->
+    <!--</bean>-->
+</beans>

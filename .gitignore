@@ -1,0 +1,50 @@
+### Maven template
+target/
+
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+generatorConfig.xml
+rebel.xml
+
+*.log
+*.log.*
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+/server/src/main/webapp/node_modules
+/server/src/main/webapp/temp/htmls
+/server/src/main/webapp/temp/static
+/server/src/main/webapp/WEB-INF/aview/base.vm
+/server/src/main/webapp/WEB-INF/aview/mallAgreement.vm
+/server/src/main/webapp/WEB-INF/fview/base.vm
+/server/src/main/webapp/WEB-INF/fview/mallAgreement.vm
+
+*.class
+
+*.jsdtscope
+*.settings
+*.prefs
+*.classpath
+*.project
+*.location_IS_UNDEFINED
+*.togitconfig
+# Package Files #
+*.jar
+*.war
+*.ear
+
+*.classpath
+*.settings
+*.project
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+.DS_Store
